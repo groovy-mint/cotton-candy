@@ -1,0 +1,21 @@
+<div id="alert1" class="popupBox">
+        <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon" alt="(경고 아이콘)">info</i> 알림</h4>
+        <a onclick = "document.getElementById('alert1').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+        </div><br>
+        <span>준비중인 기능이에요.</span>
+</div>
+<div class="settingList">
+            <div class="settingItems" href="javascript:void(0)" onclick="moveInto('setting_seatdb.html');"><i class="material-icons settingItemsIco icon">airline_seat_recline_normal</i><br>자리바꾸기<br>데이터 설정</div>
+            <div class="settingItems" href="javascript:void(0)" onclick="moveInto('setting_voterecord.html');"><i class="material-icons settingItemsIco icon">how_to_vote</i><br>투표 기록</div>
+            <div class="settingItems" href="javascript:void(0)" onclick="notAvailable();"><i class="material-icons settingItemsIco icon">palette</i><br>테마</div>
+            <div class="settingItems" href="javascript:void(0)" onclick="notAvailable();"><i class="material-icons settingItemsIco icon">settings_applications</i><br>기타 설정</div>
+            <div class="settingItems" href="javascript:void(0)" onclick="moveInto('setting_info.html');"><i class="material-icons settingItemsIco icon">info</i><br>프로그램 정보</div>
+        </div>
+
+<script>
+    function notAvailable(){
+        document.getElementById('alert1').style.display='block';
+        overlay(true);
+    }
+</script>

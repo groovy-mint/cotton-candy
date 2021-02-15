@@ -1,0 +1,54 @@
+<script async src="../seatDB.js"></script>
+<div id="delete" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">warning</i> 경고</h4>
+        <a onclick = "document.getElementById('delete').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <div class="popupBoxBool">
+        <div>
+        <form><input type="text" style="display:none;"class="del_num" id="del_num" name="del_num"/></form><span>데이터를 삭제하면 다시 되돌릴 수 없어요. 삭제할까요?</span>
+        </div>
+        <div>
+        <button type="button" class="button" onclick = "document.getElementById('delete').style.display='none';overlay(false);">아니오</button>
+        <button type="button" class="button" onclick = "DBdel(false,-1);overlay(false);">예</button>
+        </div>
+    </div>
+</div>
+<div id="insert" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">playlist_add</i> 추가</h4>
+        <a onclick = "document.getElementById('insert').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <form>
+        <label for="title" style="margin-left:5px;">제목</label><input type="text" placeholder="예: 3반" class="title" id="title" name="title"/>
+        <label for="male" style="margin-left:5px;">남자</label><input type="text" placeholder="예: 홍길동,강선봉,김철수" class="male" id="male" name="male"/>
+        <label for="female" style="margin-left:5px;">여자</label><input type="text" placeholder="예: 홍길동,강선봉,김철수" class="female" id="female" name="female"/>
+        <button type="button" class="button" onclick="DBadd(); moveInto('setting_seatdb.html');overlay(false);">추가하기</button>
+        
+    </form>
+</div>
+<div id="edit" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">edit</i> 수정</h4>
+        <a onclick = "document.getElementById('edit').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <form>
+        <input type="text" style="display:none;" id="idx_e" name="idx_e"/>
+        <label for="title" style="margin-left:5px;">제목</label><input type="text" placeholder="예: 3반" class="title" id="title_e" name="title"/>
+        <label for="male" style="margin-left:5px;">남자</label><input type="text" placeholder="예: 홍길동,강선봉,김철수" class="male" id="male_e" name="male"/>
+        <label for="female" style="margin-left:5px;">여자</label><input type="text" placeholder="예: 홍길동,강선봉,김철수" class="female" id="female_e" name="female"/>
+        <button type="button" class="button" onclick="DBedit(false,-1);overlay(false);">수정하기</button>
+        
+    </form>
+</div>
+<h3 class="p12">자리바꾸기 데이터 설정 <button type="button" class="button" onclick="document.getElementById('insert').style.display='block';overlay(true);">데이터 추가</button></h3>
+<div>
+    <table style="border-collapse: collapse;" id="dbinfo">
+        <th style="min-width:30px;">번호</th>
+        <th style="min-width:30px;">제목</th>
+        <th style="min-width:30px;">남자</th>
+        <th style="min-width:30px;">여자</th>
+        <th style="min-width:85px;">날짜</th>
+        <th style="width:75px;">삭제/수정</th>
+    </table>
+</div>

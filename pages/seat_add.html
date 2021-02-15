@@ -1,0 +1,32 @@
+<div id="alert1" class="popupBox">
+    <div class="popupBoxTop">
+    <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+    <a onclick = "document.getElementById('alert1').style.display='none';overlay(false);moveTo('seat.html');" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <span>저장되었어요.</span>
+</div>
+<div class="seat_remote">
+    <div class="seat_remote_con">
+        분단 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'bd');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="bd" name="bd" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'bd');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con">
+        분단 별 줄 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'column');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="column" name="column" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'column');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con">
+        줄 별 책상 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'row');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="row" name="row" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'row');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con_save" ><div href="javascript:void(0)" onclick="seatLayoutSave();"><i class="material-icons icon seat_remote_con_ico">save</i>저장</div></div></div>
+</div>
+<br><div class="ld" id="ld"><span style="background-color: brown;color:white;border-left:10px;border-right:10px;font-size: 2.5vw;">교탁</span></div>
+<div class="seat_flex" id="seat_frame">
+
+</div>

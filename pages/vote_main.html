@@ -1,0 +1,69 @@
+<div id="alert1" class="popupBox">
+        <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+        <a onclick = "document.getElementById('alert1').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+        </div><br>
+        <span>투표 항목은 2개 미만 혹은 11개 이상으로 설정할 수 없어요.</span>
+</div>
+<div id="alert2" class="popupBox">
+        <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+        <a onclick = "document.getElementById('alert2').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+        </div><br>
+        <span>모든 투표 항목에 내용을 채우세요.</span>
+</div>
+<div id="alert3" class="popupBox">
+        <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+        <a onclick = "document.getElementById('alert3').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+        </div><br>
+        <span>제목을 작성하세요.</span>
+</div>
+<div id="alert4" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+        <a onclick = "document.getElementById('alert4').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+        </div><br>
+        <span>투표 인원을 0보다 작거나 같게 써서는 안돼요. 또는 투표 인원을 숫자로 채우세요.</span>
+</div>
+<div id="voteCreate">
+    <div>
+    <h2>투표 제목</h2>
+    <input type="text" class="textInput p2" placeholder="제목" id="voteTitle" name="voteTitle"></input>
+    <h2>투표 인원</h2>
+    <input type="number" class="textInput" placeholder="숫자" id="voteMember" min="0" />
+        <div class="voteUnderTheTitle">
+            <div>
+                <h2>투표 항목 (총 <b id="voteContentCount">2</b>개)</h2>
+                <div id="voteContent">
+                    <input type="text" class="textInput partn p12" placeholder="1번" id="part1" name="part1"><br id="partBr1">
+                    <input type="text" class="textInput partn p12" placeholder="2번" id="part2" name="part2"><br id="partBr2">
+                </div>
+                <div class="voteHowTo">
+                    <div class="voteAddMinus"><div href="javascript:void(0)" onclick="voteAddContent();"><i class="material-icons icon voteAddMinusIco">add</i>추가</div></div>
+                    <div class="voteAddMinus"><div href="javascript:void(0)" onclick="voteRemoveContent();"><i class="material-icons icon voteAddMinusIco">remove</i>제거</div></div>
+                </div>
+            </div>
+            <div class="voteNext" onclick="voteConfirm();">
+                <div href="javascript:void(0)"><i class="material-icons voteNextIco icon">arrow_forward</i><br>다음</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="voteConfirm">
+    <div style="width:440px;">
+        <h2>투표 제목</h2>
+        <p id="voteTitleConfirm"></p>
+        <h2>투표 인원</h2>
+        <p id="voteMembersConfirm"></p>
+        <h2>투표 항목</h2>
+        <div id="voteContentsConfirm">
+        </div>
+        <p>위 내용으로 투표를 진행하려면 다음을 클릭해주세요.<br>수정하려면 이전을 클릭해주세요.<br>다음을 클릭한 뒤에는 수정할 수 없습니다.</p>
+        <div class="voteHowTo2">
+            <div class="voteBack" href="javascript:void(0)" onclick="voteEdit();"><i class="material-icons voteBackIco icon">arrow_back</i><br>이전</div>
+            <div class="voteBack" href="javascript:void(0)" onclick="voteReady();"><i class="material-icons voteBackIco icon">arrow_forward</i><br>다음</div>
+        </div>
+    </div>
+</div>
+<script async src="../voteMain.js"></script>

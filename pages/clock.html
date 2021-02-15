@@ -1,0 +1,28 @@
+<div oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<h1 class="p2">시계</h1>
+<script async src="../jquery.js"></script>
+<script>
+  $(".clock").animate({opacity: '0'}, "fast");
+var clock = document.querySelector('.clock');
+
+
+function getTime(){
+    var time = new Date();
+    var hour = time.getHours();
+    var minutes = time.getMinutes();
+    var seconds = time.getSeconds();
+    //clock.innerHTML = hour +":" + minutes + ":"+seconds;
+    clock.innerHTML = `${hour<10 ? `0${hour}`:hour}:${minutes<10 ? `0${minutes}`:minutes}:${seconds<10 ? `0${seconds}`:seconds}`
+    $(".clock").animate({opacity: '1'}, "fast");
+}
+
+
+function init(){
+    setInterval(getTime, 1000);
+}
+
+init();
+</script>
+<p class = "clock" onload="init()"></p>
+<p style="position:fixed;bottom:0;">컴퓨터 시계와 살짝 다를 수 있습니다.</p>
+</div>

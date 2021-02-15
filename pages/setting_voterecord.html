@@ -1,0 +1,57 @@
+<div id="delete" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">warning</i> 경고</h4>
+        <a onclick = "document.getElementById('delete').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <div class="popupBoxBool">
+        <div>
+        <form><input type="text" style="display:none;"class="del_num" id="del_num" name="del_num"/></form><span>데이터를 삭제하면 다시 되돌릴 수 없어요. 삭제할까요?</span>
+        </div>
+        <div>
+        <button type="button" class="button" onclick = "document.getElementById('delall').style.display='none';overlay(false);">아니오</button>
+        <button type="button" class="button" onclick = "voteDBdelall(false,-1);overlay(false);">예</button>
+        </div>
+    </div>
+</div>
+<div id="delall" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">warning</i> 경고</h4>
+        <a onclick = "document.getElementById('delall').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <div class="popupBoxBool">
+        <div>
+        <span>데이터를 전부 삭제해버리면 다시 되돌릴 수 없어요. 정말로 데이터를 모두 삭제할까요?</span>
+        </div>
+        <div>
+        <button type="button" class="button" onclick = "document.getElementById('delall').style.display='none';overlay(false);">아니오</button>
+        <button type="button" class="button" onclick = "voteDBdelall(false,-1);overlay(false);">예</button>
+        </div>
+    </div>
+</div>
+<div id="voteResultPopup" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon">info</i> 투표 결과</h4>
+        <a onclick = "document.getElementById('voteResultPopup').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div>
+        <div>
+        <p class="p12" id="voteTitle"></p>
+        <table style="border-collapse: collapse;width: 100%;text-align: center;" id="voteResultTable">
+            <th style="min-width:30px;">항목 번호</th>
+            <th style="min-width:30px;">항목 이름</th>
+            <th style="width:100px;">투표한 사람 수</th>
+        </table>
+        </div>
+        <p id="voteClear"></p>
+</div>
+<h3 class="p12">투표 기록 <button type="button" class="button" onclick="document.getElementById('delall').style.display='block';overlay(true);">데이터 전체 삭제</button></h3>
+<div>
+    <table style="border-collapse: collapse;" id="dbinfo">
+        <th style="min-width:30px;">번호</th>
+        <th style="min-width:30px;">제목</th>
+        <th style="min-width:30px;">인원</th>
+        <th style="min-width:30px;">날짜</th>
+        <th style="min-width:30px;">결과</th>
+        <th style="width:75px;">삭제</th>
+    </table>
+</div>
+<script async src="../voteDB.js"></script>

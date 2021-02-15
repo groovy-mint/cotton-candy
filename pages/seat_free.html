@@ -1,0 +1,27 @@
+
+<div class="seat_remote">
+    <div class="seat_remote_con">
+        분단 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'bd');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="bd" name="bd" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'bd');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con">
+        분단 별 줄 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'column');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="column" name="column" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'column');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con">
+        줄 별 책상 수
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(true,'row');"><i class="material-icons icon seat_remote_con_ico">add</i></div>
+        <input class="textInput" style="width: 20px; font-size:1.2em" type="text" id="row" name="row" value="1"/>
+        <div class="seat_remote_con_pm" href="javascript:void(0)" onclick="seatRemoteAddMinus(false,'row');"><i class="material-icons icon seat_remote_con_ico">remove</i></div>
+    </div>
+    <div class="seat_remote_con_save" ><div href="javascript:void(0)" onclick="seatLayout(document.getElementById('bd').value,document.getElementById('column').value,document.getElementById('row').value);"><i class="material-icons icon seat_remote_con_ico">check</i>확인</div></div></div>
+</div>
+<p>주의: 사용자 정의 모드에서 사용한 레이아웃은 저장되지 않습니다.</p>
+<div class="ld" id="ld"><span style="background-color: brown;color:white;border-left:10px;border-right:10px;font-size: 2.5vw;">교탁</span></div>
+<div class="seat_flex" id="seat_frame">
+
+</div>

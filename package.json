@@ -1,0 +1,79 @@
+{
+  "build": {
+    "productName": "Cotton Candy",
+    "appId": "kr.ntws.cottoncandy",
+    "asar": true,
+    "extraResources": [
+      "cc.db",
+      "licenses.csv"
+    ],
+    "protocols": {
+      "name": "ntwsCottonCandy",
+      "schemes": [
+        "ntwsCottonCandy"
+      ]
+    },
+    "mac": {
+      "target": [
+        "default"
+      ],
+      "icon": "./resources/installer/Icon.icns"
+    },
+    "dmg": {
+      "title": "HelloElectron",
+      "icon": "./resources/installer/Icon.icns"
+    },
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ],
+      "icon": "./resources/installer/Icon.ico"
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "tar.gz"
+      ],
+      "icon": "./resources/linuxicon"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false
+    },
+    "directories": {
+      "buildResources": "resources/installer/",
+      "output": "dist/",
+      "app": "."
+    }
+  },
+  "name": "cotton_candy",
+  "version": "0.6.5",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:osx": "electron-builder --mac",
+    "build:linux": "npm run electron-builder:linux32 && npm run electron-builder:linux64",
+    "build:linux32": "electron-builder --linux --ia32",
+    "build:linux64": "electron-builder --linux --x64",
+    "build:win": "npm run electron-builder:win32 && npm run electron-builder:win64",
+    "build:win32": "electron-builder --win --ia32",
+    "build:win64": "electron-builder --win --x64",
+    "postinstall": "install-app-deps"
+  },
+  "author": "Myebyeol <admin@ntws.kr>",
+  "license": "MIT",
+  "electronVersion": "version",
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "material-design-icons-iconfont": "^5.0.1",
+    "material-icon-offline": "^1.0.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-rebuild": "^1.11.0"
+  },
+  "description": "Codename: CottonCandy",
+  "homepage": "https://ntws.kr/support"
+}

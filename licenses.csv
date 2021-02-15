@@ -1,0 +1,2715 @@
+{
+  "7zip-bin@5.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/7zip-bin",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\7zip-bin",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\7zip-bin\\LICENSE.txt"
+  },
+  "@babel/runtime-corejs3@7.10.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "Denis Pushkarev",
+    "email": "zloirock@zloirock.ru",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@babel\\runtime-corejs3",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@babel\\runtime-corejs3\\LICENSE"
+  },
+  "@develar/schema-utils@2.6.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/webpack/schema-utils",
+    "publisher": "webpack Contrib",
+    "url": "https://github.com/webpack-contrib",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@develar\\schema-utils",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@develar\\schema-utils\\LICENSE"
+  },
+  "@electron/get@1.12.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/get",
+    "publisher": "Samuel Attard",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@electron\\get",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@electron\\get\\README.md"
+  },
+  "@sindresorhus/is@0.14.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@sindresorhus\\is",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@sindresorhus\\is\\license"
+  },
+  "@szmarczak/http-timer@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/http-timer",
+    "publisher": "Szymon Marczak",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@szmarczak\\http-timer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@szmarczak\\http-timer\\LICENSE"
+  },
+  "@types/color-name@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\color-name",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\color-name\\LICENSE"
+  },
+  "@types/debug@4.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\debug",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\debug\\LICENSE"
+  },
+  "@types/fs-extra@9.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\fs-extra",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\fs-extra\\LICENSE"
+  },
+  "@types/node@12.12.47": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\node",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\node\\LICENSE"
+  },
+  "@types/yargs-parser@15.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\yargs-parser",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\yargs-parser\\LICENSE"
+  },
+  "@types/yargs@15.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\yargs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\@types\\yargs\\LICENSE"
+  },
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\abbrev",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\abbrev\\LICENSE"
+  },
+  "ajv-keywords@3.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/ajv-keywords",
+    "publisher": "Evgeny Poberezkin",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ajv-keywords",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ajv-keywords\\LICENSE"
+  },
+  "ajv@6.12.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ajv",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ajv\\LICENSE"
+  },
+  "ansi-align@3.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/nexdrew/ansi-align",
+    "publisher": "nexdrew",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-align",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-align\\LICENSE"
+  },
+  "ansi-regex@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\ansi-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\ansi-regex\\license"
+  },
+  "ansi-regex@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\ansi-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\ansi-regex\\license"
+  },
+  "ansi-regex@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-regex\\license"
+  },
+  "ansi-regex@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\ansi-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\ansi-regex\\license"
+  },
+  "ansi-styles@3.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\ansi-styles",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\ansi-styles\\license"
+  },
+  "ansi-styles@4.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-styles",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-styles\\license"
+  },
+  "app-builder-bin@3.5.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/app-builder",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\app-builder-bin",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\app-builder-bin\\readme.md"
+  },
+  "app-builder-lib@22.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\app-builder-lib"
+  },
+  "aproba@1.2.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/aproba",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aproba",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aproba\\LICENSE"
+  },
+  "are-we-there-yet@1.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/are-we-there-yet",
+    "publisher": "Rebecca Turner",
+    "url": "http://re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\are-we-there-yet",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\are-we-there-yet\\LICENSE"
+  },
+  "argparse@1.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodeca/argparse",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\argparse",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\argparse\\LICENSE"
+  },
+  "asn1@0.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-asn1",
+    "publisher": "Joyent",
+    "url": "joyent.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\asn1",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\asn1\\LICENSE"
+  },
+  "assert-plus@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mcavage/node-assert-plus",
+    "publisher": "Mark Cavage",
+    "email": "mcavage@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\assert-plus",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\assert-plus\\README.md"
+  },
+  "async-exit-hook@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tapppi/async-exit-hook",
+    "publisher": "Tapani Moilanen",
+    "email": "moilanen.tapani@gmail.com",
+    "url": "https://github.com/tapppi",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\async-exit-hook",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\async-exit-hook\\license"
+  },
+  "async@0.9.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/caolan/async",
+    "publisher": "Caolan McMahon",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\async",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\async\\LICENSE"
+  },
+  "asynckit@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexindigo/asynckit",
+    "publisher": "Alex Indigo",
+    "email": "iam@alexindigo.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\asynckit",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\asynckit\\LICENSE"
+  },
+  "at-least-node@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/RyanZim/at-least-node",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\at-least-node",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\at-least-node\\LICENSE"
+  },
+  "aws-sign2@0.7.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/aws-sign",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aws-sign2",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aws-sign2\\LICENSE"
+  },
+  "aws4@1.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mhart/aws4",
+    "publisher": "Michael Hart",
+    "email": "michael.hart.au@gmail.com",
+    "url": "https://github.com/mhart",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aws4",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\aws4\\LICENSE"
+  },
+  "balanced-match@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\balanced-match",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\balanced-match\\LICENSE.md"
+  },
+  "bcrypt-pbkdf@1.0.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/joyent/node-bcrypt-pbkdf",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\bcrypt-pbkdf",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\bcrypt-pbkdf\\LICENSE"
+  },
+  "block-stream@0.0.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/block-stream",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\block-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\block-stream\\LICENSE"
+  },
+  "bluebird-lst@1.0.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/fs-extra-p",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\bluebird-lst"
+  },
+  "bluebird@3.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/petkaantonov/bluebird",
+    "publisher": "Petka Antonov",
+    "email": "petka_antonov@hotmail.com",
+    "url": "http://github.com/petkaantonov/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\bluebird",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\bluebird\\LICENSE"
+  },
+  "boolean@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thenativeweb/boolean",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boolean",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boolean\\LICENSE.txt"
+  },
+  "boxen@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/boxen",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen\\license"
+  },
+  "brace-expansion@1.1.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\brace-expansion",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\brace-expansion\\LICENSE"
+  },
+  "buffer-crc32@0.2.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/brianloveswords/buffer-crc32",
+    "publisher": "Brian J. Brennan",
+    "email": "brianloveswords@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\buffer-crc32",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\buffer-crc32\\LICENSE"
+  },
+  "buffer-from@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LinusU/buffer-from",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\buffer-from",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\buffer-from\\LICENSE"
+  },
+  "builder-util-runtime@8.7.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util-runtime",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util-runtime\\readme.md"
+  },
+  "builder-util@22.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\readme.md"
+  },
+  "cacheable-request@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/cacheable-request",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request\\LICENSE"
+  },
+  "camelcase@5.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/camelcase",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\camelcase",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\camelcase\\license"
+  },
+  "caseless@0.12.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/caseless",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\caseless",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\caseless\\LICENSE"
+  },
+  "chalk@2.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\chalk",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\chalk\\license"
+  },
+  "chalk@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen\\node_modules\\chalk",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen\\node_modules\\chalk\\license"
+  },
+  "chalk@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chalk",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chalk\\license"
+  },
+  "chownr@1.1.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/chownr",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chownr",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chownr\\LICENSE"
+  },
+  "chromium-pickle-js@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/node-chromium-pickle-js",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chromium-pickle-js",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\chromium-pickle-js\\README.md"
+  },
+  "ci-info@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/watson/ci-info",
+    "publisher": "Thomas Watson Steen",
+    "email": "w@tson.dk",
+    "url": "https://twitter.com/wa7son",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ci-info",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ci-info\\LICENSE"
+  },
+  "cli-boxes@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/cli-boxes",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cli-boxes",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cli-boxes\\license"
+  },
+  "cliui@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cliui",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cliui\\LICENSE.txt"
+  },
+  "clone-response@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/clone-response",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\clone-response",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\clone-response\\LICENSE"
+  },
+  "code-point-at@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/code-point-at",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\code-point-at",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\code-point-at\\license"
+  },
+  "color-convert@1.9.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\color-convert",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\color-convert\\LICENSE"
+  },
+  "color-convert@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\color-convert",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\color-convert\\LICENSE"
+  },
+  "color-name@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\color-name",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\color-name\\LICENSE"
+  },
+  "color-name@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\color-name",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\color-name\\LICENSE"
+  },
+  "combined-stream@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-combined-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\combined-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\combined-stream\\License"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\concat-map",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\concat-map\\LICENSE"
+  },
+  "concat-stream@1.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/maxogden/concat-stream",
+    "publisher": "Max Ogden",
+    "email": "max@maxogden.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\concat-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\concat-stream\\LICENSE"
+  },
+  "config-chain@1.1.12": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/config-chain",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\config-chain",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\config-chain\\LICENCE"
+  },
+  "configstore@5.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/yeoman/configstore",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\configstore",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\configstore\\license"
+  },
+  "console-control-strings@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/console-control-strings",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\console-control-strings",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\console-control-strings\\LICENSE"
+  },
+  "core-js-pure@3.6.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zloirock/core-js",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-js-pure",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-js-pure\\LICENSE"
+  },
+  "core-js@3.6.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zloirock/core-js",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-js",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-js\\LICENSE"
+  },
+  "core-util-is@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/core-util-is",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-util-is",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\core-util-is\\LICENSE"
+  },
+  "cotton_candy@0.4.1": {
+    "licenses": "MIT",
+    "publisher": "Myebyeol",
+    "email": "admin@ntws.kr",
+    "path": "C:\\Users\\myeby\\Documents\\electron"
+  },
+  "crypto-random-string@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/crypto-random-string",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\crypto-random-string",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\crypto-random-string\\license"
+  },
+  "dashdash@1.14.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/trentm/node-dashdash",
+    "publisher": "Trent Mick",
+    "email": "trentm@gmail.com",
+    "url": "http://trentm.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dashdash",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dashdash\\LICENSE.txt"
+  },
+  "debug@2.6.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip\\node_modules\\debug",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip\\node_modules\\debug\\LICENSE"
+  },
+  "debug@3.2.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle\\node_modules\\debug",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle\\node_modules\\debug\\LICENSE"
+  },
+  "debug@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\debug",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\debug\\LICENSE"
+  },
+  "debug@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util-runtime\\node_modules\\debug",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util-runtime\\node_modules\\debug\\LICENSE"
+  },
+  "decamelize@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decamelize",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs-parser\\node_modules\\decamelize",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs-parser\\node_modules\\decamelize\\license"
+  },
+  "decamelize@3.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decamelize",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\decamelize",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\decamelize\\license"
+  },
+  "decompress-response@3.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decompress-response",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\decompress-response",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\decompress-response\\license"
+  },
+  "deep-extend@0.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unclechu/node-deep-extend",
+    "publisher": "Viacheslav Lotsmanov",
+    "email": "lotsmanov89@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\deep-extend",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\deep-extend\\LICENSE"
+  },
+  "defer-to-connect@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/defer-to-connect",
+    "publisher": "Szymon Marczak",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\defer-to-connect",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\defer-to-connect\\LICENSE"
+  },
+  "define-properties@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-properties",
+    "publisher": "Jordan Harband",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\define-properties",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\define-properties\\LICENSE"
+  },
+  "delayed-stream@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-delayed-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\delayed-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\delayed-stream\\License"
+  },
+  "delegates@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-delegates",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\delegates",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\delegates\\License"
+  },
+  "detect-libc@1.0.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\detect-libc",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\detect-libc\\LICENSE"
+  },
+  "detect-node@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iliakan/detect-node",
+    "publisher": "Ilya Kantor",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\detect-node",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\detect-node\\LICENSE"
+  },
+  "dmg-builder@22.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dmg-builder",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dmg-builder\\readme.md"
+  },
+  "dot-prop@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/dot-prop",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dot-prop",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dot-prop\\license"
+  },
+  "dotenv-expand@5.1.0": {
+    "licenses": "BSD-2-Clause",
+    "publisher": "motdotla",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dotenv-expand",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dotenv-expand\\LICENSE"
+  },
+  "dotenv@8.2.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/motdotla/dotenv",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dotenv",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\dotenv\\LICENSE"
+  },
+  "duplexer3@0.1.4": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/floatdrop/duplexer3",
+    "publisher": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\duplexer3",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\duplexer3\\LICENSE.md"
+  },
+  "ecc-jsbn@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/quartzjer/ecc-jsbn",
+    "publisher": "Jeremie Miller",
+    "email": "jeremie@jabber.org",
+    "url": "http://jeremie.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ecc-jsbn",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ecc-jsbn\\LICENSE"
+  },
+  "ejs@3.1.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mde/ejs",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ejs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ejs\\LICENSE"
+  },
+  "electron-builder@22.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron-builder",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron-builder\\README.md"
+  },
+  "electron-publish@22.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron-publish",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron-publish\\readme.md"
+  },
+  "electron@7.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/electron",
+    "publisher": "Electron Community",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\electron\\LICENSE"
+  },
+  "emoji-regex@7.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\emoji-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\emoji-regex\\LICENSE-MIT.txt"
+  },
+  "emoji-regex@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\emoji-regex",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\emoji-regex\\LICENSE-MIT.txt"
+  },
+  "encodeurl@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pillarjs/encodeurl",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\encodeurl",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\encodeurl\\LICENSE"
+  },
+  "end-of-stream@1.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/end-of-stream",
+    "publisher": "Mathias Buus",
+    "email": "mathiasbuus@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\end-of-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\end-of-stream\\LICENSE"
+  },
+  "env-paths@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/env-paths",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\env-paths",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\env-paths\\license"
+  },
+  "es6-error@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bjyoungblood/es6-error",
+    "publisher": "Ben Youngblood",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\es6-error",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\es6-error\\LICENSE.md"
+  },
+  "escape-goat@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-goat",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\escape-goat",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\escape-goat\\license"
+  },
+  "escape-string-regexp@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\escape-string-regexp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\escape-string-regexp\\license"
+  },
+  "escape-string-regexp@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\escape-string-regexp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\escape-string-regexp\\license"
+  },
+  "esprima@4.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/jquery/esprima",
+    "publisher": "Ariya Hidayat",
+    "email": "ariya.hidayat@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\esprima",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\esprima\\LICENSE.BSD"
+  },
+  "extend@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/justmoon/node-extend",
+    "publisher": "Stefan Thomas",
+    "email": "justmoon@members.fsf.org",
+    "url": "http://www.justmoon.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extend",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extend\\LICENSE"
+  },
+  "extract-zip@1.7.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/maxogden/extract-zip",
+    "publisher": "max ogden",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip\\LICENSE"
+  },
+  "extsprintf@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/davepacheco/node-extsprintf",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extsprintf",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extsprintf\\LICENSE"
+  },
+  "fast-deep-equal@3.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fast-deep-equal",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fast-deep-equal\\LICENSE"
+  },
+  "fast-json-stable-stringify@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fast-json-stable-stringify",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fast-json-stable-stringify\\LICENSE"
+  },
+  "fd-slicer@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-fd-slicer",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fd-slicer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fd-slicer\\LICENSE"
+  },
+  "filelist@1.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mde/filelist",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\filelist",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\filelist\\README.md"
+  },
+  "find-up@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\find-up",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\find-up\\license"
+  },
+  "forever-agent@0.6.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/forever-agent",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\forever-agent",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\forever-agent\\LICENSE"
+  },
+  "form-data@2.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/form-data/form-data",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\form-data",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\form-data\\License"
+  },
+  "fs-extra@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs-extra",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs-extra\\LICENSE"
+  },
+  "fs-extra@9.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\fs-extra",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\fs-extra\\LICENSE"
+  },
+  "fs-minipass@1.2.7": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs-minipass",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs-minipass\\LICENSE"
+  },
+  "fs.realpath@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs.realpath",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fs.realpath\\LICENSE"
+  },
+  "fstream@1.0.12": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fstream",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fstream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\fstream\\LICENSE"
+  },
+  "gauge@2.7.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/gauge",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\LICENSE"
+  },
+  "get-caller-file@2.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/stefanpenner/get-caller-file",
+    "publisher": "Stefan Penner",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\get-caller-file",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\get-caller-file\\LICENSE.md"
+  },
+  "get-stream@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/get-stream",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\get-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\get-stream\\license"
+  },
+  "get-stream@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/get-stream",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request\\node_modules\\get-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request\\node_modules\\get-stream\\license"
+  },
+  "getpass@0.1.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/arekinath/node-getpass",
+    "publisher": "Alex Wilson",
+    "email": "alex.wilson@joyent.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\getpass",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\getpass\\LICENSE"
+  },
+  "glob@7.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\glob",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\glob\\LICENSE"
+  },
+  "global-agent@2.1.12": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/global-agent",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-agent",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-agent\\LICENSE"
+  },
+  "global-dirs@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/global-dirs",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-dirs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-dirs\\license"
+  },
+  "global-tunnel-ng@2.7.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/np-maintain/global-tunnel",
+    "publisher": "GoInstant Inc., a salesforce.com company",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-tunnel-ng",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\global-tunnel-ng\\LICENSE"
+  },
+  "globalthis@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/System.global",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\globalthis",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\globalthis\\LICENSE"
+  },
+  "got@9.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/got",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\got",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\got\\license"
+  },
+  "graceful-fs@4.2.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\graceful-fs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\graceful-fs\\LICENSE"
+  },
+  "har-schema@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/ahmadnassri/har-schema",
+    "publisher": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "https://www.ahmadnassri.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\har-schema",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\har-schema\\LICENSE"
+  },
+  "har-validator@5.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ahmadnassri/node-har-validator",
+    "publisher": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "https://www.ahmadnassri.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\har-validator",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\har-validator\\LICENSE"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\has-flag",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\has-flag\\license"
+  },
+  "has-flag@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-flag",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-flag\\license"
+  },
+  "has-unicode@2.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/has-unicode",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-unicode",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-unicode\\LICENSE"
+  },
+  "has-yarn@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-yarn",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-yarn",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\has-yarn\\license"
+  },
+  "hosted-git-info@2.8.8": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-package-data\\node_modules\\hosted-git-info",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-package-data\\node_modules\\hosted-git-info\\LICENSE"
+  },
+  "hosted-git-info@3.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\hosted-git-info",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\hosted-git-info\\LICENSE"
+  },
+  "http-cache-semantics@4.1.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/kornelski/http-cache-semantics",
+    "publisher": "Kornel Lesiński",
+    "email": "kornel@geekhood.net",
+    "url": "https://kornel.ski/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\http-cache-semantics",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\http-cache-semantics\\LICENSE"
+  },
+  "http-signature@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-http-signature",
+    "publisher": "Joyent, Inc",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\http-signature",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\http-signature\\LICENSE"
+  },
+  "iconv-lite@0.4.24": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ashtuchkin/iconv-lite",
+    "publisher": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle\\node_modules\\iconv-lite",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle\\node_modules\\iconv-lite\\LICENSE"
+  },
+  "iconv-lite@0.5.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ashtuchkin/iconv-lite",
+    "publisher": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\iconv-lite",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\iconv-lite\\LICENSE"
+  },
+  "ignore-walk@3.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/ignore-walk",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ignore-walk",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ignore-walk\\LICENSE"
+  },
+  "import-lazy@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/import-lazy",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\import-lazy",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\import-lazy\\license"
+  },
+  "imurmurhash@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jensyt/imurmurhash-js",
+    "publisher": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\imurmurhash",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\imurmurhash\\README.md"
+  },
+  "inflight@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\inflight",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\inflight\\LICENSE"
+  },
+  "inherits@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\inherits",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\inherits\\LICENSE"
+  },
+  "ini@1.3.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/ini",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ini",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ini\\LICENSE"
+  },
+  "is-ci@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/watson/is-ci",
+    "publisher": "Thomas Watson Steen",
+    "email": "w@tson.dk",
+    "url": "https://twitter.com/wa7son",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-ci",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-ci\\LICENSE"
+  },
+  "is-fullwidth-code-point@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\is-fullwidth-code-point",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\is-fullwidth-code-point\\license"
+  },
+  "is-fullwidth-code-point@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-fullwidth-code-point",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-fullwidth-code-point\\license"
+  },
+  "is-fullwidth-code-point@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\is-fullwidth-code-point",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\is-fullwidth-code-point\\license"
+  },
+  "is-installed-globally@0.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-installed-globally",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-installed-globally",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-installed-globally\\license"
+  },
+  "is-npm@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-npm",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-npm",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-npm\\license"
+  },
+  "is-obj@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-obj",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-obj",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-obj\\license"
+  },
+  "is-path-inside@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-path-inside",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-path-inside",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-path-inside\\license"
+  },
+  "is-typedarray@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/hughsk/is-typedarray",
+    "publisher": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-typedarray",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-typedarray\\LICENSE.md"
+  },
+  "is-yarn-global@0.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LitoMore/is-yarn-global",
+    "publisher": "LitoMore",
+    "url": "litomore@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-yarn-global",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\is-yarn-global\\LICENSE"
+  },
+  "isarray@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isarray",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isarray\\README.md"
+  },
+  "isbinaryfile@4.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gjtorikian/isBinaryFile",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isbinaryfile",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isbinaryfile\\LICENSE.txt"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isexe",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isexe\\LICENSE"
+  },
+  "isstream@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rvagg/isstream",
+    "publisher": "Rod Vagg",
+    "email": "rod@vagg.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isstream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\isstream\\LICENSE.md"
+  },
+  "jake@10.8.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jakejs/jake",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\README.md"
+  },
+  "js-yaml@3.14.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodeca/js-yaml",
+    "publisher": "Vladimir Zapparov",
+    "email": "dervus.grim@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\js-yaml",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\js-yaml\\LICENSE"
+  },
+  "jsbn@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andyperlitch/jsbn",
+    "publisher": "Tom Wu",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsbn",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsbn\\LICENSE"
+  },
+  "json-buffer@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-buffer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-buffer\\LICENSE"
+  },
+  "json-schema-traverse@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-schema-traverse",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-schema-traverse\\LICENSE"
+  },
+  "json-schema@0.2.3": {
+    "licenses": [
+      "AFLv2.1",
+      "BSD"
+    ],
+    "repository": "https://github.com/kriszyp/json-schema",
+    "publisher": "Kris Zyp",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-schema",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-schema\\README.md"
+  },
+  "json-stringify-safe@5.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/json-stringify-safe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-stringify-safe",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json-stringify-safe\\LICENSE"
+  },
+  "json5@2.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/json5/json5",
+    "publisher": "Aseem Kishore",
+    "email": "aseem.kishore@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json5",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\json5\\LICENSE.md"
+  },
+  "jsonfile@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsonfile",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsonfile\\LICENSE"
+  },
+  "jsonfile@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\jsonfile",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\jsonfile\\LICENSE"
+  },
+  "jsprim@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-jsprim",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsprim",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jsprim\\LICENSE"
+  },
+  "keyv@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/keyv",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\keyv",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\keyv\\LICENSE"
+  },
+  "latest-version@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/latest-version",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\latest-version",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\latest-version\\license"
+  },
+  "lazy-val@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/lazy-val",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lazy-val",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lazy-val\\readme.md"
+  },
+  "locate-path@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\locate-path",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\locate-path\\license"
+  },
+  "lodash@4.17.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lodash",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lodash\\LICENSE"
+  },
+  "lowercase-keys@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/lowercase-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lowercase-keys",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lowercase-keys\\license"
+  },
+  "lowercase-keys@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/lowercase-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request\\node_modules\\lowercase-keys",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\cacheable-request\\node_modules\\lowercase-keys\\license"
+  },
+  "lru-cache@5.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lru-cache",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\lru-cache\\LICENSE"
+  },
+  "make-dir@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/make-dir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\make-dir",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\make-dir\\license"
+  },
+  "matcher@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/matcher",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\matcher",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\matcher\\license"
+  },
+  "material-design-icons-iconfont@5.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jossef/material-design-icons-iconfont",
+    "publisher": "Material Design Authors, Jossef Harush",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-design-icons-iconfont",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-design-icons-iconfont\\LICENSE"
+  },
+  "material-design-icons@3.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/google/material-design-icons",
+    "publisher": "Material Design Authors",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-design-icons",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-design-icons\\LICENSE"
+  },
+  "material-icon-offline@1.0.0": {
+    "licenses": "MIT",
+    "publisher": "Devin Don",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-icon-offline",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\material-icon-offline\\LICENSE"
+  },
+  "mime-db@1.44.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-db",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime-db",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime-db\\LICENSE"
+  },
+  "mime-types@2.1.27": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-types",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime-types",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime-types\\LICENSE"
+  },
+  "mime@2.4.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/broofa/mime",
+    "publisher": "Robert Kieffer",
+    "email": "robert@broofa.com",
+    "url": "http://github.com/broofa",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mime\\LICENSE"
+  },
+  "mimic-response@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mimic-response",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mimic-response\\license"
+  },
+  "minimatch@3.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minimatch",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minimatch\\LICENSE"
+  },
+  "minimist@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minimist",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minimist\\LICENSE"
+  },
+  "minipass@2.9.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minipass",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minipass\\LICENSE"
+  },
+  "minizlib@1.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/minizlib",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minizlib",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\minizlib\\LICENSE"
+  },
+  "mkdirp@0.5.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-mkdirp",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mkdirp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\mkdirp\\LICENSE"
+  },
+  "ms@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip\\node_modules\\ms",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\extract-zip\\node_modules\\ms\\license.md"
+  },
+  "ms@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ms",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ms\\license.md"
+  },
+  "needle@2.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tomas/needle",
+    "publisher": "Tomás Pollak",
+    "email": "tomas@forkhq.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\needle\\license.txt"
+  },
+  "node-addon-api@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-addon-api",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-addon-api",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-addon-api\\LICENSE.md"
+  },
+  "node-gyp@3.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-gyp",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://tootallnate.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-gyp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-gyp\\LICENSE"
+  },
+  "node-pre-gyp@0.11.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mapbox/node-pre-gyp",
+    "publisher": "Dane Springmeyer",
+    "email": "dane@mapbox.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\LICENSE"
+  },
+  "nopt@3.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\nopt",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\nopt\\LICENSE"
+  },
+  "nopt@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\nopt",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\nopt\\LICENSE"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-package-data",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-package-data\\LICENSE"
+  },
+  "normalize-url@4.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/normalize-url",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-url",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\normalize-url\\license"
+  },
+  "npm-bundled@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-bundled",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-bundled",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-bundled\\LICENSE"
+  },
+  "npm-conf@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/npm-conf",
+    "publisher": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-conf",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-conf\\license"
+  },
+  "npm-normalize-package-bin@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-normalize-package-bin",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-normalize-package-bin",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-normalize-package-bin\\LICENSE"
+  },
+  "npm-packlist@1.4.8": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-packlist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-packlist",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npm-packlist\\LICENSE"
+  },
+  "npmlog@4.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npmlog",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npmlog",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\npmlog\\LICENSE"
+  },
+  "number-is-nan@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/number-is-nan",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\number-is-nan",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\number-is-nan\\license"
+  },
+  "oauth-sign@0.9.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/oauth-sign",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\oauth-sign",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\oauth-sign\\LICENSE"
+  },
+  "object-assign@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/object-assign",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\object-assign",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\object-assign\\license"
+  },
+  "object-keys@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/object-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\object-keys",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\object-keys\\LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\once",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\once\\LICENSE"
+  },
+  "os-homedir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\os-homedir",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\os-homedir\\license"
+  },
+  "os-tmpdir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\os-tmpdir",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\os-tmpdir\\license"
+  },
+  "osenv@0.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\osenv",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\osenv\\LICENSE"
+  },
+  "p-cancelable@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-cancelable",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-cancelable",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-cancelable\\license"
+  },
+  "p-limit@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-limit",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-limit\\license"
+  },
+  "p-locate@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-locate",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-locate\\license"
+  },
+  "p-try@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-try",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-try",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\p-try\\license"
+  },
+  "package-json@6.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/package-json",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\package-json",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\package-json\\license"
+  },
+  "path-exists@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-exists",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-exists",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-exists\\license"
+  },
+  "path-is-absolute@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-is-absolute",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-is-absolute\\license"
+  },
+  "path-parse@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-parse",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\path-parse\\LICENSE"
+  },
+  "pend@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-pend",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pend",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pend\\LICENSE"
+  },
+  "performance-now@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/braveg1rl/performance-now",
+    "publisher": "Braveg1rl",
+    "email": "braveg1rl@outlook.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\performance-now",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\performance-now\\license.txt"
+  },
+  "pify@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/pify",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pify",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pify\\license"
+  },
+  "prepend-http@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/prepend-http",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\prepend-http",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\prepend-http\\license"
+  },
+  "process-nextick-args@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/calvinmetcalf/process-nextick-args",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\process-nextick-args",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\process-nextick-args\\license.md"
+  },
+  "progress@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-progress",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\progress",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\progress\\LICENSE"
+  },
+  "proto-list@1.2.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/proto-list",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\proto-list",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\proto-list\\LICENSE"
+  },
+  "psl@1.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lupomontero/psl",
+    "publisher": "Lupo Montero",
+    "email": "lupomontero@gmail.com",
+    "url": "https://lupomontero.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\psl",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\psl\\LICENSE"
+  },
+  "pump@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/pump",
+    "publisher": "Mathias Buus Madsen",
+    "email": "mathiasbuus@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pump",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pump\\LICENSE"
+  },
+  "punycode@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bestiejs/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\punycode",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\punycode\\LICENSE-MIT.txt"
+  },
+  "pupa@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/pupa",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pupa",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\pupa\\license"
+  },
+  "qs@6.5.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/ljharb/qs",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\qs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\qs\\LICENSE"
+  },
+  "rc@1.2.8": {
+    "licenses": "(BSD-2-Clause OR MIT OR Apache-2.0)",
+    "repository": "https://github.com/dominictarr/rc",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "dominictarr.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\rc",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\rc\\LICENSE.APACHE2"
+  },
+  "read-config-file@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/read-config-file",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\read-config-file",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\read-config-file\\readme.md"
+  },
+  "readable-stream@2.3.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/readable-stream",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\readable-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\readable-stream\\LICENSE"
+  },
+  "regenerator-runtime@0.13.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\regenerator-runtime",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\regenerator-runtime\\LICENSE"
+  },
+  "registry-auth-token@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rexxars/registry-auth-token",
+    "publisher": "Espen Hovlandsdal",
+    "email": "espen@hovlandsdal.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\registry-auth-token",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\registry-auth-token\\LICENSE"
+  },
+  "registry-url@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/registry-url",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\registry-url",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\registry-url\\license"
+  },
+  "request@2.88.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/request/request",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\request",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\request\\LICENSE"
+  },
+  "require-directory@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/troygoode/node-require-directory",
+    "publisher": "Troy Goode",
+    "email": "troygoode@gmail.com",
+    "url": "http://github.com/troygoode/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\require-directory",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\require-directory\\LICENSE"
+  },
+  "require-main-filename@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/require-main-filename",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\require-main-filename",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\require-main-filename\\LICENSE.txt"
+  },
+  "resolve@1.17.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\resolve",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\resolve\\LICENSE"
+  },
+  "responselike@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/responselike",
+    "publisher": "lukechilds",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\responselike",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\responselike\\LICENSE"
+  },
+  "rimraf@2.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/rimraf",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\rimraf",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\rimraf\\LICENSE"
+  },
+  "roarr@2.15.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/roarr",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\roarr",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\roarr\\LICENSE"
+  },
+  "safe-buffer@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/safe-buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\safe-buffer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\safe-buffer\\LICENSE"
+  },
+  "safer-buffer@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ChALkeR/safer-buffer",
+    "publisher": "Nikita Skovoroda",
+    "email": "chalkerx@gmail.com",
+    "url": "https://github.com/ChALkeR",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\safer-buffer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\safer-buffer\\LICENSE"
+  },
+  "sanitize-filename@1.6.3": {
+    "licenses": "WTFPL OR ISC",
+    "repository": "https://github.com/parshap/node-sanitize-filename",
+    "publisher": "Parsha Pourkhomami",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sanitize-filename",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sanitize-filename\\LICENSE.md"
+  },
+  "sax@1.2.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/sax-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sax",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sax\\LICENSE"
+  },
+  "semver-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/semver-compare",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver-compare",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver-compare\\LICENSE"
+  },
+  "semver-diff@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/semver-diff",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver-diff",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver-diff\\license"
+  },
+  "semver@5.3.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-gyp\\node_modules\\semver",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-gyp\\node_modules\\semver\\LICENSE"
+  },
+  "semver@5.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\semver",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\semver\\LICENSE"
+  },
+  "semver@6.3.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\make-dir\\node_modules\\semver",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\make-dir\\node_modules\\semver\\LICENSE"
+  },
+  "semver@7.3.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\semver\\LICENSE"
+  },
+  "serialize-error@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/serialize-error",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\serialize-error",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\serialize-error\\license"
+  },
+  "set-blocking@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/set-blocking",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\set-blocking",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\set-blocking\\LICENSE.txt"
+  },
+  "signal-exit@3.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\signal-exit",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\signal-exit\\LICENSE.txt"
+  },
+  "source-map-support@0.5.19": {
+    "licenses": "MIT",
+    "repository": "https://github.com/evanw/node-source-map-support",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\source-map-support",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\source-map-support\\LICENSE.md"
+  },
+  "source-map@0.6.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mozilla/source-map",
+    "publisher": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\source-map",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\source-map\\LICENSE"
+  },
+  "spdx-correct@3.1.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-correct",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-correct\\LICENSE"
+  },
+  "spdx-exceptions@2.3.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-exceptions",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-exceptions\\README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-expression-parse",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-expression-parse\\LICENSE"
+  },
+  "spdx-license-ids@3.0.5": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/shinnn/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-license-ids",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\spdx-license-ids\\README.md"
+  },
+  "sprintf-js@1.0.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/alexei/sprintf.js",
+    "publisher": "Alexandru Marasteanu",
+    "email": "hello@alexei.ro",
+    "url": "http://alexei.ro/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\argparse\\node_modules\\sprintf-js",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\argparse\\node_modules\\sprintf-js\\LICENSE"
+  },
+  "sprintf-js@1.1.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/alexei/sprintf.js",
+    "publisher": "Alexandru Mărășteanu",
+    "email": "hello@alexei.ro",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sprintf-js",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sprintf-js\\LICENSE"
+  },
+  "sqlite3@5.0.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mapbox/node-sqlite3",
+    "publisher": "MapBox",
+    "url": "https://mapbox.com/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sqlite3",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sqlite3\\LICENSE"
+  },
+  "sshpk@1.16.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-sshpk",
+    "publisher": "Joyent, Inc",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sshpk",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sshpk\\LICENSE"
+  },
+  "stat-mode@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/stat-mode",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\stat-mode",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\stat-mode\\LICENSE"
+  },
+  "string-width@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\string-width",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\string-width\\license"
+  },
+  "string-width@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\string-width",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\string-width\\license"
+  },
+  "string-width@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-align\\node_modules\\string-width",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\ansi-align\\node_modules\\string-width\\license"
+  },
+  "string-width@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\license"
+  },
+  "string_decoder@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/string_decoder",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string_decoder",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string_decoder\\LICENSE"
+  },
+  "strip-ansi@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\strip-ansi",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\gauge\\node_modules\\strip-ansi\\license"
+  },
+  "strip-ansi@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\strip-ansi",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\node_modules\\strip-ansi\\license"
+  },
+  "strip-ansi@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\strip-ansi",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\strip-ansi\\license"
+  },
+  "strip-ansi@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\strip-ansi",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\string-width\\node_modules\\strip-ansi\\license"
+  },
+  "strip-json-comments@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-json-comments",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\strip-json-comments",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\strip-json-comments\\license"
+  },
+  "sumchecker@3.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/malept/sumchecker",
+    "publisher": "Mark Lee",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sumchecker",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\sumchecker\\LICENSE"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\supports-color",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\jake\\node_modules\\supports-color\\license"
+  },
+  "supports-color@7.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\supports-color",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\supports-color\\license"
+  },
+  "tar@2.2.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-tar",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tar",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tar\\LICENSE"
+  },
+  "tar@4.4.13": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-tar",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\tar",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\node-pre-gyp\\node_modules\\tar\\LICENSE"
+  },
+  "temp-file@3.3.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/temp-file",
+    "publisher": "Vladimir Krivosheev",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\temp-file",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\temp-file\\readme.md"
+  },
+  "term-size@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/term-size",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\term-size",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\term-size\\license"
+  },
+  "to-readable-stream@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/to-readable-stream",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\to-readable-stream",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\to-readable-stream\\license"
+  },
+  "tough-cookie@2.5.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/salesforce/tough-cookie",
+    "publisher": "Jeremy Stashewsky",
+    "email": "jstash@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tough-cookie",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tough-cookie\\LICENSE"
+  },
+  "truncate-utf8-bytes@1.0.2": {
+    "licenses": "WTFPL",
+    "repository": "https://github.com/parshap/truncate-utf8-bytes",
+    "publisher": "Carl Xiong",
+    "email": "xiongc05@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\truncate-utf8-bytes",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\truncate-utf8-bytes\\README.md"
+  },
+  "tunnel-agent@0.6.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/tunnel-agent",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tunnel-agent",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tunnel-agent\\LICENSE"
+  },
+  "tunnel@0.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/koichik/node-tunnel",
+    "publisher": "Koichi Kobayashi",
+    "email": "koichik@improvement.jp",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tunnel",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tunnel\\LICENSE"
+  },
+  "tweetnacl@0.14.5": {
+    "licenses": "Unlicense",
+    "repository": "https://github.com/dchest/tweetnacl-js",
+    "publisher": "TweetNaCl-js contributors",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tweetnacl",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\tweetnacl\\LICENSE"
+  },
+  "type-fest@0.13.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\type-fest",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\type-fest\\license"
+  },
+  "type-fest@0.8.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen\\node_modules\\type-fest",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\boxen\\node_modules\\type-fest\\license"
+  },
+  "typedarray-to-buffer@3.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/typedarray-to-buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\typedarray-to-buffer",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\typedarray-to-buffer\\LICENSE"
+  },
+  "typedarray@0.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/typedarray",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\typedarray",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\typedarray\\LICENSE"
+  },
+  "unique-string@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/unique-string",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\unique-string",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\unique-string\\license"
+  },
+  "universalify@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\universalify",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\universalify\\LICENSE"
+  },
+  "universalify@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\universalify",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\builder-util\\node_modules\\universalify\\LICENSE"
+  },
+  "update-notifier@4.1.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/yeoman/update-notifier",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\update-notifier",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\update-notifier\\license"
+  },
+  "uri-js@4.2.2": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\uri-js",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\uri-js\\README.md"
+  },
+  "url-parse-lax@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/url-parse-lax",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\url-parse-lax",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\url-parse-lax\\license"
+  },
+  "utf8-byte-length@1.0.4": {
+    "licenses": "WTFPL",
+    "repository": "https://github.com/parshap/utf8-byte-length",
+    "publisher": "Carl Xiong",
+    "email": "xiongc05@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\utf8-byte-length",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\utf8-byte-length\\README.md"
+  },
+  "util-deprecate@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\util-deprecate",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\util-deprecate\\LICENSE"
+  },
+  "uuid@3.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/uuidjs/uuid",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\uuid",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\uuid\\LICENSE.md"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\validate-npm-package-license",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\validate-npm-package-license\\LICENSE"
+  },
+  "verror@1.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/davepacheco/node-verror",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\verror",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\verror\\LICENSE"
+  },
+  "which-module@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/nexdrew/which-module",
+    "publisher": "nexdrew",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\which-module",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\which-module\\LICENSE"
+  },
+  "which@1.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\which",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\which\\LICENSE"
+  },
+  "wide-align@1.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/wide-align",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wide-align\\LICENSE"
+  },
+  "widest-line@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/widest-line",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\widest-line",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\widest-line\\license"
+  },
+  "wrap-ansi@6.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wrap-ansi",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wrap-ansi\\license"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wrappy",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\wrappy\\LICENSE"
+  },
+  "write-file-atomic@3.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/write-file-atomic",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\write-file-atomic",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\write-file-atomic\\LICENSE"
+  },
+  "xdg-basedir@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/xdg-basedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\xdg-basedir",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\xdg-basedir\\license"
+  },
+  "xregexp@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/slevithan/xregexp",
+    "publisher": "Steven Levithan",
+    "email": "steves_list@hotmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\xregexp",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\xregexp\\LICENSE"
+  },
+  "y18n@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/y18n",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\y18n",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\y18n\\LICENSE"
+  },
+  "yallist@3.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yallist",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yallist\\LICENSE"
+  },
+  "yargs-parser@18.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/yargs-parser",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs-parser",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs-parser\\LICENSE.txt"
+  },
+  "yargs@15.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/yargs/yargs",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yargs\\LICENSE"
+  },
+  "yauzl@2.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thejoshwolfe/yauzl",
+    "publisher": "Josh Wolfe",
+    "email": "thejoshwolfe@gmail.com",
+    "path": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yauzl",
+    "licenseFile": "C:\\Users\\myeby\\Documents\\electron\\node_modules\\yauzl\\LICENSE"
+  }
+}

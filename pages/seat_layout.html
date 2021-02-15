@@ -1,0 +1,37 @@
+<div id="seatSetting" class="popupBox">
+    <div class="popupBoxTop">
+        <h4 style="margin:0;"><i class="material-icons icon" alt="(경고 아이콘)">settings</i> 설정</h4>
+        <a onclick = "document.getElementById('seatSetting').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <form>
+        <span style="font-size:1.2em;">책상 세로줄에 따라 남녀 구분</span><br>
+        <label class="radioWrapper">없음
+          <input type="radio" checked="checked" name="wm" value="0">
+          <span class="checkMark"></span>
+        </label>
+        <label class="radioWrapper">홀 남자 짝 여자
+          <input type="radio" name="wm" value="1">
+          <span class="checkMark"></span>
+        </label>
+        <label class="radioWrapper">홀 여자 짝 남자
+          <input type="radio" name="wm" value="2">
+          <span class="checkMark"></span>
+        </label>
+        </div>
+    </form>
+</div>
+<div class="seat_setting" id="seat_setting">
+    <form method="post"><span id="layoutForm">형식: </span>
+        <select name="stdntSelect" id="stdntSelect" class="stdntSelect">
+            <option value="-1">학생 목록을 선택하세요.</option>
+        </select>
+        <a onclick = "document.getElementById('seatSetting').style.display='block';overlay(true);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(설정)">settings</i>옵션</a>
+        <button type="button" class="button" onclick="changeSeat();">자리 배치하기</button>
+        <script src="../seatMain.js"></script>
+    </form>
+</div>
+<br><div class="ld" id="ld"><span style="background-color: brown;color:white;border-left:10px;border-right:10px;font-size: 2.5vw;">교탁</span></div>
+<div class="seat_flex" id="seat_frame">
+
+</div>
+<script>seatInit();</script>

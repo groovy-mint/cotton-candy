@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      if (typeof module === 'object') {
+        window.module = module;
+        module = undefined;
+      }
+    </script>
+    <script async src="../jquery.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <link rel="stylesheet" href="../node_modules/material-design-icons-iconfont/dist/material-design-icons.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Cotton Candy BETA</title>
+    <script>
+    var electron = require('electron');
+      window.onload=function(){$(".content").load('main.html');}
+
+      function fullscreen(dir){
+        if(dir==true){
+          electron.remote.getCurrentWindow().setFullScreen(true);
+          $("#fullscreenToggle").attr('onclick', 'fullscreen(false)');
+          $("#fullscreenToggle").html('<i class="material-icons" alt="풀슼">fullscreen_exit</i> <span>전체화면 끔</span>');
+        }else{
+          electron.remote.getCurrentWindow().setFullScreen(false);
+          $("#fullscreenToggle").attr('onclick', 'fullscreen(true)');
+          $("#fullscreenToggle").html('<i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span>');
+          
+        }
+      }
+
+      function moveTo(page){
+      $(".content").animate({opacity: '0'}, "fast");
+      setTimeout(function() {
+      $(".content").load(page, function(){$(".content").animate({opacity: '1'}, "fast");})},220);
+      $(document).off('keydown');//키를 누르지 못하게 전환
+      };
+
+      function moveInto(page){
+      $(".title_back").css('maxWidth', '1.2em');
+      $(".innerContent").animate({opacity: '0'}, "fast");
+      setTimeout(function() {
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220);
+      };
+
+      function moveBack(page){
+      $(".title_back").css('maxWidth', '0');
+      $(".innerContent").animate({opacity: '0'}, "fast");
+      setTimeout(function() {
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220);
+      $(document).off('keydown');//키를 누르지 못하게 전환
+      };
+
+      function overlay(dir){
+        if(dir==true){
+          $("#blackOverlay").css('display', 'block');
+        }else{
+          $("#blackOverlay").css('display', 'none');
+        }
+
+      }
+  </script>
+  </head>
+  <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <div class="frame">
+      <div class="menu">
+        <div>
+          <div onclick="moveTo('main.html');overlay(false);" class="menuicon"><i class="material-icons" alt="홈">home</i> <span>홈</span><br></div>
+          <div onclick="moveTo('clock.html');overlay(false);" class="menuicon"><i class="material-icons" alt="시계">alarm</i> <span>시계</span><br></div>
+          <div onclick="moveTo('seat.html');overlay(false);" class="menuicon"><i class="material-icons" alt="자리">airline_seat_recline_normal</i><span>자리바꾸기</span><br></div>
+          <div onclick="moveTo('vote.html');overlay(false);" class="menuicon"><i class="material-icons" alt="투표">how_to_vote</i><span>학급투표</span><br></div>
+        </div>
+        <div>
+          <div onclick="moveTo('help.html');overlay(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
+          <div onclick="moveTo('setting.html');overlay(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
+          <div onclick="fullscreen(true);" class="menuicon" id="fullscreenToggle"><i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span><br></div>
+        </div>
+      </div>
+      <div id="blackOverlay" class="overlay"></div>
+      <div class="content">
+      </div>
+    </div>
+  </div>
+    <!-- You can also require other files to run in this process -->
+  </body>
+</html>

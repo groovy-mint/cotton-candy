@@ -1,0 +1,29 @@
+<div id="alert1" class="popupBox">
+    <div class="popupBoxTop">
+    <h4 style="margin:0;"><i class="material-icons icon">info</i> 알림</h4>
+    <a onclick = "document.getElementById('alert1').style.display='none';overlay(false);" href="javascript:void(0)" class="iconButton"><i class="material-icons icon" alt="(닫기)">close</i></a>
+    </div><br>
+    <span>아직 준비중이에요.</span>
+</div>
+<script>
+function waitplease(){
+  document.getElementById('alert1').style.display='block';
+  overlay(true);
+}
+</script>
+
+<p class="p12">기본</p>
+<div class="settingList">
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">view_quilt</i><br>인터페이스</div>
+</div>
+<p class="p12">자리바꾸기 사용법</p>
+<div class="settingList">
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">filter_1</i><br>필수<br>데이터 삽입</div>
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">filter_2</i><br>레이아웃 생성</div>
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">filter_3</i><br>자리바꾸기</div>
+</div>
+<p class="p12">학급 투표 사용법</p>
+<div class="settingList">
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">filter_1</i><br>학급투표 진행하기</div>
+    <div class="settingItems" href="javascript:void(0)" onclick="waitplease();"><i class="material-icons settingItemsIco icon">filter_2</i><br>투표 기록 관리하기</div>
+</div>
