@@ -1,5 +1,7 @@
+var app = require('electron').remote.app;
+var pathToApp=app.getAppPath().replace('/app.asar','');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('./resources/cc.db');
+var db = new sqlite3.Database(pathToApp+'/cc.db');
 
 function seatMainInit(){
   db.all('SELECT * FROM seatLayout',[], (err,sql)=>{
@@ -92,14 +94,14 @@ function changeSeat(){ //change_seat callback
     var seats = $(".seat_row").length;
     for(i=1;i<=seats;i++){
       $("#"+i).css("font-size", '2.5vw');
-      contHeight = $("#"+i+"cont").outerHeight();
-      fontHeight = $("#"+i).outerHeight();
+      contHeight = $("#"+i+"cont").innerWidth();
+      fontHeight = $("#"+i).width();
       while(contHeight<fontHeight){
         windowHeight = $(window).height();
         fontSize = $("#"+i).css("font-size").replace('px', '');
         $("#"+i).css("font-size", (((fontSize / windowHeight) * 60)+'vw'));
-        contHeight = $("#"+i+"cont").outerHeight();
-        fontHeight = $("#"+i).outerHeight();
+        contHeight = $("#"+i+"cont").innerWidth();
+        fontHeight = $("#"+i).innerWidth();
         console.log(i+'afdsfda'+fontSize);
       }
     }
@@ -124,24 +126,24 @@ function changeSeatFirst(cb){
             if(i%2==1){
               if(nonSeat==true||maleNames[x]==undefined)
               {document.getElementById(i).innerText = " ";
-              }else{document.getElementById(i).innerText = maleNames[x];x++;
+              }else{if(maleNames[x].length>6){document.getElementById(i).innerText = maleNames[x].substr(0,5)+'..';}else{document.getElementById(i).innerText = maleNames[x];}x++;
               }
             }else{
               if(nonSeat==true||femaleNames[y]==undefined)
               {document.getElementById(i).innerText = " ";
-              }else{document.getElementById(i).innerText = femaleNames[y];y++;
+              }else{if(femaleNames[y].length>6){document.getElementById(i).innerText = femaleNames[y].substr(0,5)+'..';}else{document.getElementById(i).innerText = femaleNames[y];}y++;
               }
             }
           }else{
             if(i%2==1){
               if(nonSeat==true||femaleNames[y]==undefined)
               {document.getElementById(i).innerText = " ";
-              }else{document.getElementById(i).innerText = femaleNames[y];y++;
+              }else{if(femaleNames[y].length>6){document.getElementById(i).innerText = femaleNames[y].substr(0,5)+'..';}else{document.getElementById(i).innerText = femaleNames[y];}y++;
               }
             }else{
               if(nonSeat==true||maleNames[x]==undefined)
               {document.getElementById(i).innerText = " ";
-              }else{document.getElementById(i).innerText = maleNames[x];x++;
+              }else{if(maleNames[x].length>6){document.getElementById(i).innerText = maleNames[x].substr(0,5)+'..';}else{document.getElementById(i).innerText = maleNames[x];}x++;
               }
             }
           }
@@ -160,10 +162,10 @@ function changeSeatFirst(cb){
           {
             document.getElementById(i).innerText = " ";
           }else{
-            document.getElementById(i).innerText = array[x];
+            if(array[x].length>6){document.getElementById(i).innerText = array[x].substr(0,5)+'..';}else{document.getElementById(i).innerText = array[x];}
             x++;
           }
         }
       });
 }}
-setTimeout(() => cb(),1);}
+setTimeout(() => cb(),5);}
