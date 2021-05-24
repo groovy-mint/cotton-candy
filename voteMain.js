@@ -1,5 +1,7 @@
+var app = require('electron').remote.app;
+var pathToApp=app.getAppPath().replace('/app.asar','');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('./resources/cc.db');
+var db = new sqlite3.Database(pathToApp+'/cc.db');
 
 function voteAddContent(){ //투표 항목을 추가합니다.
     contentCount=Number(document.getElementById('voteContentCount').innerHTML);
@@ -90,9 +92,11 @@ function voteReady(){ //컨펌 화면에서 다음 버튼을 눌렀을 때 실�
     db.each(query);
 
     moveInto('vote_ready.html');
+    $(document).on('keydown', function(space) {voteStart();}); //스페이스 키 오픈
 }
 function voteStart(){ //컨펌 화면에서 다음 버튼을 누른 뒤, 투표를 시작할 때 실행할 함수입니다.
     moveInto('vote_start.html');
+    $(document).off('keydown');//스페이스 키를 누르지 못하게 전환
 }
 
 function voteLoad(){ //차례가 돌아올 때마다 실행할 함수입니다.
@@ -109,11 +113,10 @@ function voteLoad(){ //차례가 돌아올 때마다 실행할 함수입니다.
       $(document).on('keydown', function(e) {voteUp(e);}); 
 }
 function voteUp(e){ //한 표를 던질 때 실행할 함수입니다.
+    if(Number(e.key)==0){num=10}else{num=Number(e.key)} //키를 숫자로 전환
     db.all('SELECT * FROM voteList ORDER BY idx DESC limit 1',[], (err,sql)=>{
-    if(Number(e.key)<=sql[0].partsNum||e.key=='.'||e.key=='q'){
+    if(num<=sql[0].partsNum||e.key=='.'||e.key=='q'){
         $(document).off('keydown');//키를 누르지 못하게 전환
-        var num = Number(e.key);//키를 숫자로 변환
-        if(Number(e.key)==0){num=10;}//0->10 변환
         numbers =  sql[0].numbers.split("%%");
         x = sql[0].partsNum; //항목 갯수 가져오기
         var voted = ''; //voted 값 초기화
