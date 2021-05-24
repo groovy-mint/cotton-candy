@@ -51,14 +51,19 @@
       $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220);
       $(document).off('keydown');//키를 누르지 못하게 전환
       };
-
+      function helpRemoteAct(dir){
+        if(dir==true){
+          $(".help_remote_cover").animate({bottom: '25px'}, "fast");
+        }else{
+          $(".help_remote_cover").animate({bottom: '-55px'}, "fast");
+        }
+      }
       function overlay(dir){
         if(dir==true){
           $("#blackOverlay").css('display', 'block');
         }else{
           $("#blackOverlay").css('display', 'none');
         }
-
       }
   </script>
   </head>
@@ -66,19 +71,24 @@
     <div class="frame">
       <div class="menu">
         <div>
-          <div onclick="moveTo('main.html');overlay(false);" class="menuicon"><i class="material-icons" alt="홈">home</i> <span>홈</span><br></div>
-          <div onclick="moveTo('clock.html');overlay(false);" class="menuicon"><i class="material-icons" alt="시계">alarm</i> <span>시계</span><br></div>
-          <div onclick="moveTo('seat.html');overlay(false);" class="menuicon"><i class="material-icons" alt="자리">airline_seat_recline_normal</i><span>자리바꾸기</span><br></div>
-          <div onclick="moveTo('vote.html');overlay(false);" class="menuicon"><i class="material-icons" alt="투표">how_to_vote</i><span>학급투표</span><br></div>
+          <div onclick="moveTo('main.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="홈">home</i> <span>홈</span><br></div>
+          <div onclick="moveTo('clock.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="시계">alarm</i> <span>시계</span><br></div>
+          <div onclick="moveTo('seat.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="자리">airline_seat_recline_normal</i><span>자리바꾸기</span><br></div>
+          <div onclick="moveTo('vote.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="투표">how_to_vote</i><span>학급투표</span><br></div>
         </div>
         <div>
-          <div onclick="moveTo('help.html');overlay(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
-          <div onclick="moveTo('setting.html');overlay(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
+          <div onclick="moveTo('help.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
+          <div onclick="moveTo('setting.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
           <div onclick="fullscreen(true);" class="menuicon" id="fullscreenToggle"><i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span><br></div>
         </div>
       </div>
       <div id="blackOverlay" class="overlay"></div>
       <div class="content">
+      </div>
+      <div class="help_remote_cover">
+        <div class="help_remote_main">
+          <i class="material-icons">chevron_left</i><span id="page_count">0</span><i class="material-icons">chevron_right</i>
+        </div>
       </div>
     </div>
   </div>
