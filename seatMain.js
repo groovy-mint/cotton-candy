@@ -9,9 +9,9 @@ function seatMainInit(){
       bd=sql[i].bd;
       column=sql[i].column;
       row=sql[i].row;
-      document.getElementById('seat_list').innerHTML +=`<div><div class="seat_list_box" href="javascript:void(0)" onclick="seatLayout(`+bd+`,`+column+`,`+row+`);"><i class="material-icons seat_list_ico icon">apps</i><button class="seat_list_del"><i class="material-icons seat_list_del_ico icon" onclick="seatLayoutDel(`+sql[i].idx+`);">close</i></button><br>`+bd+`x`+column+`x`+row+`</div></div>`
+      document.getElementById('seat_list').innerHTML +=`<div><div class="seat_list_box"><button class="seat_list_del"><i class="material-icons seat_list_del_ico icon" onclick="seatLayoutDel(`+sql[i].idx+`);">close</i></button><div class="seat_list_box_inner" href="javascript:void(0)" onclick="seatLayout(`+bd+`,`+column+`,`+row+`);"><i class="material-icons seat_list_ico icon">apps</i><br>`+bd+`x`+column+`x`+row+`</div></div></div>`
     }
-    document.getElementById('seat_list').innerHTML +=`<div class="seat_list_box" href="javascript:void(0)" onclick="moveInto('seat_add.html');"><i class="material-icons seat_list_ico icon">add</i><br>추가</div><div class="seat_list_box" href="javascript:void(0)" onclick="moveInto('seat_free.html');"><i class="material-icons seat_list_ico icon">more_horiz</i><br>사용자 정의</div>`;
+    document.getElementById('seat_list').innerHTML +=`<div class="seat_list_box"><div class="seat_list_box_inner" href="javascript:void(0)" onclick="moveInto('seat_add.html');"><i class="material-icons seat_list_ico icon">add</i><br>추가</div></div><div class="seat_list_box"><div class="seat_list_box_inner" href="javascript:void(0)" onclick="moveInto('seat_free.html');"><i class="material-icons seat_list_ico icon">more_horiz</i><br>사용자 정의</div></div>`;
   });
 }
 
