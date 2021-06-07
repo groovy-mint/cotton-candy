@@ -1,5 +1,8 @@
+var app = require('electron').remote.app;
+var pathToApp=app.getAppPath().replace('app.asar','');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('./resources/cc.db',sqlite3.OPEN_READWRITE);
+var db = new sqlite3.Database(pathToApp+'cc.db',sqlite3.OPEN_READWRITE);
+
 db.all('SELECT * FROM voteList',[], (err,sql)=>{
     for(i=0;i<sql.length;i++){
         document.getElementById('dbinfo').innerHTML += "<tr><td>"+ sql[i].idx +"</td><td>"+ sql[i].title +"</td><td>"+sql[i].memberNum+"</td><td>"+sql[i].date+'</td><td><a onclick="voteDBinfo('+sql[i].idx+');" class="click"> 결과 </a></td><td><a onclick="voteDBdel(true,'+sql[i].idx+');" class="click"> 삭제 </a></td></tr>';

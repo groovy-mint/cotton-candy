@@ -1,7 +1,7 @@
 var app = require('electron').remote.app;
-var pathToApp=app.getAppPath().replace('/app.asar','');
+var pathToApp=app.getAppPath().replace('app.asar','');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database(pathToApp+'/cc.db');
+var db = new sqlite3.Database(pathToApp+'cc.db');
 
 function seatMainInit(){
   db.all('SELECT * FROM seatLayout',[], (err,sql)=>{

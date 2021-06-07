@@ -1,7 +1,7 @@
 var app = require('electron').remote.app;
-var pathToApp=app.getAppPath().replace('/app.asar','');
+var pathToApp=app.getAppPath().replace('app.asar','');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database(pathToApp+'/cc.db');
+var db = new sqlite3.Database(pathToApp+'cc.db');
 
 function voteAddContent(){ //투표 항목을 추가합니다.
     contentCount=Number(document.getElementById('voteContentCount').innerHTML);

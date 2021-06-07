@@ -1,7 +1,8 @@
 const { app, BrowserWindow, Menu } = require('electron');
 const path = require("path");
+var pathToApp=app.getAppPath().replace('app.asar','');
 
-Menu.setApplicationMenu(false);//프로그램 메뉴 삭제
+//Menu.setApplicationMenu(false);//프로그램 메뉴 삭제
 
 function createWindow () {  // 브라우저 창을 생성
   let win = new BrowserWindow({
@@ -24,7 +25,7 @@ app.on('ready', createWindow);
 const sqlite3 = require('sqlite3').verbose();
 //데이터베이스 관련된 초기 기능
 let isConn = false;
-let db = new sqlite3.Database('./resources/cc.db', sqlite3.OPEN_READWRITE, (err) => {
+let db = new sqlite3.Database(pathToApp+'cc.db', sqlite3.OPEN_READWRITE, (err) => {
   if (err) {
     console.error(err.message);
   } else {
