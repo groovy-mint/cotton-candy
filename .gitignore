@@ -104,3 +104,4 @@ dist
 .tern-port
 resources/.DS_Store
 .DS_Store
+resources/cc.db

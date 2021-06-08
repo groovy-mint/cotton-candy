@@ -20,8 +20,21 @@
       "icon": "./resources/installer/Icon.icns"
     },
     "dmg": {
-      "title": "HelloElectron",
-      "icon": "./resources/installer/Icon.icns"
+      "title": "Cotton Candy UwU ${version}",
+      "icon": "./resources/installer/Icon.icns",
+      "background":"./resources/installer/dmg_installer_background.png",
+      "iconSize": 80,
+      "iconTextSize": 12,
+      "contents":[{
+        "x": 510,
+        "y": 180,
+        "type": "link",
+        "path": "/Applications"
+      },{
+        "x": 180,
+        "y": 180,
+        "type": "file"
+      }]
     },
     "win": {
       "target": [
@@ -38,8 +51,10 @@
       "icon": "./resources/linuxicon"
     },
     "nsis": {
-      "oneClick": true,
-      "allowToChangeInstallationDirectory": false
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerSidebar":"./resources/installer/exe_installer_welcome.bmp",
+      "perMachine": true
     },
     "directories": {
       "buildResources": "resources/installer/",
@@ -53,26 +68,30 @@
   "scripts": {
     "start": "electron .",
     "build:osx": "electron-builder --mac",
+    "build:m1": "electron-builder --mac --arm64",
     "build:linux": "npm run electron-builder:linux32 && npm run electron-builder:linux64",
     "build:linux32": "electron-builder --linux --ia32",
     "build:linux64": "electron-builder --linux --x64",
     "build:win": "npm run electron-builder:win32 && npm run electron-builder:win64",
     "build:win32": "electron-builder --win --ia32",
     "build:win64": "electron-builder --win --x64",
-    "postinstall": "install-app-deps"
+    "postinstall": "electron-builder install-app-deps",
+    "rebuild": "electron-rebuild -f --arch=arm64 "
   },
   "author": "Myebyeol <admin@ntws.kr>",
   "license": "MIT",
   "electronVersion": "version",
   "dependencies": {
     "material-design-icons": "^3.0.1",
-    "material-design-icons-iconfont": "^5.0.1",
+    "material-design-icons-iconfont": "^6.1.0",
     "material-icon-offline": "^1.0.0",
-    "sqlite3": "^5.0.0"
+    "npm-check-updates": "^11.6.0",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "electron": "^9.2.1",
-    "electron-rebuild": "^1.11.0"
+    "electron-builder": "^22.10.4",
+    "electron": "^13.1.1",
+    "electron-rebuild": "^2.3.5"
   },
   "description": "Codename: CottonCandy",
   "homepage": "https://ntws.kr/support"

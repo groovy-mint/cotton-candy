@@ -3,6 +3,7 @@ const path = require("path");
 var pathToApp=app.getAppPath().replace('app.asar','');
 
 //Menu.setApplicationMenu(false);//프로그램 메뉴 삭제
+console.log(app.getAppPath())
 
 function createWindow () {  // 브라우저 창을 생성
   let win = new BrowserWindow({
@@ -11,7 +12,9 @@ function createWindow () {  // 브라우저 창을 생성
     minHeight: 680,
     height: 680,
     webPreferences: {
+      enableRemoteModule: true,
       nodeIntegration: true,
+      contextIsolation: false
     }
   });
   win.$ = win.jQuery = require('./jquery.js');
