@@ -17,12 +17,12 @@
     var electron = require('electron');
       window.onload=function(){$(".content").load('main.html');}
 
-      function fullscreen(dir){
-        if(dir==true){
+      function fullscreen(dir){ // 전체화면 스크립트
+        if(dir==true){ // 전체화면 활성화
           electron.remote.getCurrentWindow().setFullScreen(true);
           $("#fullscreenToggle").attr('onclick', 'fullscreen(false)');
           $("#fullscreenToggle").html('<i class="material-icons" alt="풀슼">fullscreen_exit</i> <span>전체화면 끔</span>');
-        }else{
+        }else{ // 전체화면 비활성화
           electron.remote.getCurrentWindow().setFullScreen(false);
           $("#fullscreenToggle").attr('onclick', 'fullscreen(true)');
           $("#fullscreenToggle").html('<i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span>');
@@ -30,38 +30,61 @@
         }
       }
 
-      function moveTo(page){
-      $(".content").animate({opacity: '0'}, "fast");
-      setTimeout(function() {
-      $(".content").load(page, function(){$(".content").animate({opacity: '1'}, "fast");})},220);
-      $(document).off('keydown');//키를 누르지 못하게 전환
+      function moveTo(page){ //메뉴 바에서 이동
+      $(".content").animate({opacity: '0'}, "fast"); // 내용물 감추기
+      setTimeout(function() { // 220초 대기
+      $(".content").load(page, function(){$(".content").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
+      $(document).off('keydown'); // 키를 누르지 못하게 전환
       };
 
-      function moveInto(page){
-      $(".title_back").css('maxWidth', '1.2em');
-      $(".innerContent").animate({opacity: '0'}, "fast");
-      setTimeout(function() {
-      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220);
+      function moveInto(page){ // 페이지 안에서 이동
+      $(".title_back").css('maxWidth', '1.2em'); // 타이틀 오른쪽으로 밀어서 뒤로가기 버튼 보이기
+      $(".innerContent").animate({opacity: '0'}, "fast"); // 내용물 감추기
+      setTimeout(function() { // 220초 대기
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
       };
 
-      function moveBack(page){
-      $(".title_back").css('maxWidth', '0');
-      $(".innerContent").animate({opacity: '0'}, "fast");
-      setTimeout(function() {
-      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220);
+      function moveBack(page){ //페이지 안에서 뒤로가기
+      $(".title_back").css('maxWidth', '0'); // 타이틀 왼쪽으로 밀어서 뒤로가기 버튼 감추기
+      $(".innerContent").animate({opacity: '0'}, "fast"); // 내용물 감추기
+      setTimeout(function() { // 220초 대기
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
       $(document).off('keydown');//키를 누르지 못하게 전환
       };
-      function helpRemoteAct(dir){
+      function helpRemoteUpDown(dir,page,cntnum,maxnum){ //도움말 리모컨 위아래
         if(dir==true){
-          $(".help_remote_cover").animate({bottom: '25px'}, "fast");
+          moveInto('help_'+page+'_'+(cntnum)+'.html'); //리모컨 올릴 겸 페이지 이동도 같이 합시다
+          $("#help_page_total").text(maxnum); // 리모컨에 최대 페이지 숫자 넣기
+          $("#help_page_count").text(cntnum); // 리모컨에 현재 페이지 숫자 넣기
+          $("#help_remote_prv").attr('onclick', 'helpRemoteAct(false,"'+page+'","help_'+page+'_'+(cntnum-1)+'.html");'); // 이전 버튼 누르면 할 활동
+          $("#help_remote_nxt").attr('onclick', 'helpRemoteAct(true,"'+page+'","help_'+page+'_'+(cntnum+1)+'.html");'); // 다음 버튼 누르면 할 활동
+          $(".help_remote_cover").animate({bottom: '25px'}, "fast"); // 리모컨 올리기
         }else{
-          $(".help_remote_cover").animate({bottom: '-55px'}, "fast");
+          $(".help_remote_cover").animate({bottom: '-55px'}, "fast"); // 리모컨 내리기
         }
       }
-      function overlay(dir){
-        if(dir==true){
+      function helpRemoteAct(dir,content,page){ //도움말 리모컨 조작
+        cntnum=Number($("#help_page_count").text()); // 현재 페이지 숫자 리모컨에서 가져오기
+        maxnum=Number($("#help_page_total").text()); // 최대 페이지 숫자 리모컨에서 가져오기
+        if((dir==false&&cntnum==1)||(dir==true&&cntnum==maxnum)){ // 최소 또는 최대 페이지에 도달하였을 경우
+          
+        }else{ 
+          moveInto(page); // page 변수에 적힌 페이지로 페이지 안에서 이동
+          if(dir==true){ // 오른쪽 화살표 누르면
+            $("#help_remote_prv").attr('onclick', 'helpRemoteAct(false,"'+content+'","help_'+content+'_'+(cntnum)+'.html");');
+            $("#help_remote_nxt").attr('onclick', 'helpRemoteAct(true,"'+content+'","help_'+content+'_'+(cntnum+2)+'.html");');
+            $("#help_page_count").text(cntnum+1);
+          }else{ // 왼쪽 화살표 누르면
+            $("#help_remote_prv").attr('onclick', 'helpRemoteAct(false,"'+content+'","help_'+content+'_'+(cntnum-2)+'.html");');
+            $("#help_remote_nxt").attr('onclick', 'helpRemoteAct(true,"'+content+'","help_'+content+'_'+(cntnum)+'.html");');
+            $("#help_page_count").text(cntnum-1);
+          }
+        }
+      }
+      function overlay(dir){ // 시꺼먼 배경으로 덮어주는 거 (오버레이)
+        if(dir==true){ // 오버레이 활성화
           $("#blackOverlay").css('display', 'block');
-        }else{
+        }else{ // 오버레이 비활성화
           $("#blackOverlay").css('display', 'none');
         }
       }
@@ -71,14 +94,14 @@
     <div class="frame">
       <div class="menu">
         <div>
-          <div onclick="moveTo('main.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="홈">home</i> <span>홈</span><br></div>
-          <div onclick="moveTo('clock.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="시계">alarm</i> <span>시계</span><br></div>
-          <div onclick="moveTo('seat.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="자리">airline_seat_recline_normal</i><span>자리바꾸기</span><br></div>
-          <div onclick="moveTo('vote.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="투표">how_to_vote</i><span>학급투표</span><br></div>
+          <div onclick="moveTo('main.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="홈">home</i> <span>홈</span><br></div>
+          <div onclick="moveTo('clock.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="시계">alarm</i> <span>시계</span><br></div>
+          <div onclick="moveTo('seat.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="자리">airline_seat_recline_normal</i><span>자리바꾸기</span><br></div>
+          <div onclick="moveTo('vote.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="투표">how_to_vote</i><span>학급투표</span><br></div>
         </div>
         <div>
-          <div onclick="moveTo('help.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
-          <div onclick="moveTo('setting.html');overlay(false);helpRemoteAct(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
+          <div onclick="moveTo('help.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
+          <div onclick="moveTo('setting.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
           <div onclick="fullscreen(true);" class="menuicon" id="fullscreenToggle"><i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span><br></div>
         </div>
       </div>
@@ -87,7 +110,13 @@
       </div>
       <div class="help_remote_cover">
         <div class="help_remote_main">
-          <i class="material-icons">chevron_left</i><span id="page_count">0</span><i class="material-icons">chevron_right</i>
+          <div class="help_remote_dir" id="help_remote_prv" onclick="moveInto('help_basic_1.html');">
+            <i class="material-icons help_remote_ico">chevron_left</i>
+        </div>
+        <span class="p08"><span id="help_page_count">1</span> / <span id="help_page_total">1</span></span>
+        <div class="help_remote_dir" id="help_remote_nxt" onclick="moveInto('help_basic_1.html');">
+          <i class="material-icons help_remote_ico">chevron_right</i>
+      </div>
         </div>
       </div>
     </div>
