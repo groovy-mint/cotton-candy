@@ -2,7 +2,7 @@ const { app, BrowserWindow, Menu } = require('electron');
 const path = require("path");
 var pathToApp=app.getAppPath().replace('app.asar','');
 
-//Menu.setApplicationMenu(false);//프로그램 메뉴 삭제
+Menu.setApplicationMenu(false);//프로그램 메뉴 삭제
 console.log(app.getAppPath())
 
 function createWindow () {  // 브라우저 창을 생성
