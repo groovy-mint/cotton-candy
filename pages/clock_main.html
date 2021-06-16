@@ -1,5 +1,30 @@
-<div>
+<!-- <div>
     <a onclick="moveInto('clock_time.html');" href="javascript:void(0)"><i class="material-icons" alt="홈">schedule</i> 시계</a><br>
     <a onclick="moveInto('clock_stopwatch.html');" href="javascript:void(0)"><i class="material-icons" alt="스톱워치">alarm</i> 스톱워치</a><br>
     <a onclick="moveInto('clock_time.html');" href="javascript:void(0)"><i class="material-icons" alt="타이머">timer</i> 타이머</a>
-</div>
+</div> -->
+<script async src="../jquery.js"></script>
+<script>
+  $(".clock").animate({opacity: '0'}, "fast");
+var clock = document.querySelector('.clock');
+
+
+function getTime(){
+    var time = new Date();
+    var hour = time.getHours();
+    var minutes = time.getMinutes();
+    var seconds = time.getSeconds();
+    //clock.innerHTML = hour +":" + minutes + ":"+seconds;
+    clock.innerHTML = `${hour<10 ? `0${hour}`:hour}:${minutes<10 ? `0${minutes}`:minutes}:${seconds<10 ? `0${seconds}`:seconds}`
+    $(".clock").animate({opacity: '1'}, "fast");
+}
+
+
+function init(){
+    setInterval(getTime, 1000);
+}
+
+init();
+</script>
+<p class = "clock" onload="init()"></p>
+<p style="position:fixed;bottom:0;">컴퓨터 시계와 살짝 다를 수 있습니다.</p>
