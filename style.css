@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6,p{cursor: default;}
 #voteCreate,#voteReady,#voteStart{display:flex;justify-content:space-around;align-items:center;margin-bottom:1em;}
 #voteConfirm{display:none;justify-content:space-around;align-items:center;margin-bottom:1em;}
 .voteHowTo{display: flex;justify-content: space-around;}
-.voteHowTo2, .settingList, .stopwatch_remote{display: flex;justify-content: space-around;text-align: center;}
+.voteHowTo2, .settingList, .stopwatch_remote, .lottery_remote{display: flex;justify-content: space-around;text-align: center;}
 
 .voteBack{margin:20px;cursor: pointer;text-decoration: underline;}
 .voteBack:hover .voteBackIco{background-color:rgba(49, 39, 39, 0.15);}
@@ -133,6 +133,11 @@ h1,h2,h3,h4,h5,h6,p{cursor: default;}
 .voteNextIco{font-size:2em;padding:10px;border-radius:50%;background-color:none;-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}
 
 #voteContents{display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-start;justify-content: center;max-height: 35vh;}
+
+.lotteryBox{font-size: 20vh;text-align: center;display: flex;align-items: center;justify-content: space-around;margin: 17vh;}
+.lotteryBox .textInput{font-size:20vh; width:25vh; text-align: center;}
+.lotteryInst{text-align: center;position: fixed;width:calc( 100% - 90px );bottom:100px;}
+.lottery_remote{position:fixed;width:calc( 100% - 90px );bottom:15px;}
 
 .button{background-color: #fff;border: solid #000;border-radius: 15px;padding:1.5px 6px;cursor: pointer;}
 .textInput{border:0; border-bottom:3px solid black;padding:1px 5px;background-color: #eeeeee;}
@@ -155,7 +160,7 @@ h1,h2,h3,h4,h5,h6,p{cursor: default;}
 .settingItemsIco{font-size:4em;padding:10px;border-radius:50%;background-color:none;-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}
 
 .clock{font-size: 17vw;text-align: center;line-height: 12vw;}
-.stopwatch_remote{justify-content: space-evenly;}
+.stopwatch_remote, .lottery_remote{justify-content: space-evenly;}
 .rtm_list_cont{text-align:left;cursor:pointer;}
 .p_title{padding-top:30px;padding-bottom:5px;margin:0;padding-left:4px;}
 .p_cont{padding-bottom:30px;margin:0;padding-left:4px;}
