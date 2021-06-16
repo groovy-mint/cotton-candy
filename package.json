@@ -51,10 +51,8 @@
       "icon": "./resources/linuxicon"
     },
     "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "installerSidebar":"./resources/installer/exe_installer_welcome.bmp",
-      "perMachine": true
+      "oneClick": true,
+      "perMachine": false
     },
     "directories": {
       "buildResources": "resources/installer/",
@@ -63,7 +61,7 @@
     }
   },
   "name": "cotton_candy",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
