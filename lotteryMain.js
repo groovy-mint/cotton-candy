@@ -1,7 +1,7 @@
 function lotteryStart(){
     var firstnum=Number(document.getElementById('lotteryFirstNum').value);
     var lastnum=Number(document.getElementById('lotteryLastNum').value);
-    var randNum = Math.floor(Math.random() * (lastnum-1)) + firstnum;
+    var randNum = Math.floor(Math.random() * (lastnum-firstnum+1)) + firstnum;
     $(".title_back").css('maxWidth', '1.2em'); // 타이틀 오른쪽으로 밀어서 뒤로가기 버튼 보이기
     $(".lottery_remote, .p12").animate({opacity: '0'}, "fast");
     setTimeout(function(){$(".lotteryBox").animate({marginTop: '-100px', opacity: '0'}, "fast");$(".lotteryResult").animate({marginBottom: '0px', opacity: '1'}, "fast");}, 220);
@@ -9,21 +9,21 @@ function lotteryStart(){
     for(i=1; i<10; i++){
         (function(x){
           setTimeout(function(){
-            $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-1)) + firstnum);
+            $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-firstnum+1)) + firstnum);
           }, 440+50*x);
         })(i);
       }
     for(i=1; i<10; i++){
     (function(x){
         setTimeout(function(){
-        $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-1)) + firstnum);
+        $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-firstnum+1)) + firstnum);
         }, 940+100*x);
     })(i);
     }
     for(i=1; i<3; i++){
         (function(x){
             setTimeout(function(){
-            $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-1)) + firstnum);
+            $(".lotteryResult").text(Math.floor(Math.random() * (lastnum-firstnum+1)) + firstnum);
             }, 1940+300*x);
         })(i);
         }
