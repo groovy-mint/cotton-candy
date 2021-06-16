@@ -34,7 +34,11 @@
         "x": 180,
         "y": 180,
         "type": "file"
-      }]
+      }],
+      "window":{
+        "width":700,
+        "height":400
+      }
     },
     "win": {
       "target": [
@@ -70,6 +74,7 @@
     "build:linux": "npm run electron-builder:linux32 && npm run electron-builder:linux64",
     "build:linux32": "electron-builder --linux --ia32",
     "build:linux64": "electron-builder --linux --x64",
+    "build:linuxarm": "electron-builder --linux --arm64",
     "build:win": "npm run electron-builder:win32 && npm run electron-builder:win64",
     "build:win32": "electron-builder --win --ia32",
     "build:win64": "electron-builder --win --x64",
