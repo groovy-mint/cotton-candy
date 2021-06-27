@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6,p{cursor: default;}
 .voteAddMinusIco{border-radius:50%;background-color:none;-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}
 
 .voteNext{color:black;margin:20px;text-align: center;display: flex;justify-content: center;align-items: center;width: 100%;cursor: pointer;text-decoration: underline;}
-.vo teNext:hover .voteNextIco{background-color:rgba(49, 39, 39, 0.15);}
+.voteNext:hover .voteNextIco{background-color:rgba(49, 39, 39, 0.15);}
 .voteNextIco{font-size:2em;padding:10px;border-radius:50%;background-color:none;-webkit-transition:background-color 0.15s;transition:background-color 0.15s;}
 
 #voteContents{display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-start;justify-content: center;max-height: 35vh;}
