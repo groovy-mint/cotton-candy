@@ -1,0 +1,17 @@
+<style>
+    .search_go_ico{border-radius: 50%;transition: background-color 0.15s;cursor: pointer;}
+    .search_go_ico:hover{background-color:rgba(49, 39, 39, 0.15);}
+</style>
+<div oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <script>$(".innerContent").load('store/main.html');</script>
+      <div class="tab_title_cover">
+        <div class="title_cover"><i class="material-icons title_back" onclick="moveBack('store/main.html');">arrow_back</i>
+            <div style="width: 100%;display: flex;align-items: center;justify-content: space-between;">
+                <h1 class="p2 tab_title">스토어</h1><div><i class="material-icons icon">search</i><input style="margin:20px 0;" class="textInput" placeholder="검색..."><i class="material-icons icon search_go_ico">arrow_forward</i></div>
+            </div>
+          </div>
+        </div>
+        <div class="innerContent">
+      </div>
+  </div>
+  <script src="../lotteryMain.js"></script>

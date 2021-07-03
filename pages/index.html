@@ -33,7 +33,7 @@
       function moveTo(page){ //메뉴 바에서 이동
       $(".content").animate({opacity: '0'}, "fast"); // 내용물 감추기
       setTimeout(function() { // 220초 대기
-      $(".content").load(page, function(){$(".content").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
+      $(".content").load(page, function(){$(".content").animate({opacity: '1'}, "fast");window.scrollTo({top:0, left:0, behavior:'smooth'});})},220); // 페이지 로딩 후 내용물 보이기
       $(document).off('keydown'); // 키를 누르지 못하게 전환
       };
 
@@ -41,14 +41,14 @@
       $(".title_back").css('maxWidth', '1.2em'); // 타이틀 오른쪽으로 밀어서 뒤로가기 버튼 보이기
       $(".innerContent").animate({opacity: '0'}, "fast"); // 내용물 감추기
       setTimeout(function() { // 220초 대기
-      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");window.scrollTo({top:0, left:0, behavior:'smooth'});})},220); // 페이지 로딩 후 내용물 보이기
       };
 
       function moveBack(page){ //페이지 안에서 뒤로가기
       $(".title_back").css('maxWidth', '0'); // 타이틀 왼쪽으로 밀어서 뒤로가기 버튼 감추기
       $(".innerContent").animate({opacity: '0'}, "fast"); // 내용물 감추기
       setTimeout(function() { // 220초 대기
-      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");})},220); // 페이지 로딩 후 내용물 보이기
+      $(".innerContent").load(page, function(){$(".innerContent").animate({opacity: '1'}, "fast");window.scrollTo({top:0, left:0, behavior:'smooth'});})},220); // 페이지 로딩 후 내용물 보이기
       $(document).off('keydown');//키를 누르지 못하게 전환
       };
       function helpRemoteUpDown(dir,page,cntnum,maxnum){ //도움말 리모컨 위아래
@@ -101,6 +101,7 @@
           <div onclick="moveTo('lottery/index.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="ㅁ">ballot</i><span>번호추첨</span><br></div>
         </div>
         <div>
+          <div onclick="moveTo('store/index.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="설정">shopping_bag</i> <span>스토어</span></div>
           <div onclick="moveTo('help.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="설정">help_outline</i> <span>도움말</span></div>
           <div onclick="moveTo('setting.html');overlay(false);helpRemoteUpDown(false);" class="menuicon"><i class="material-icons" alt="설정">settings</i> <span>설정</span></div>
           <div onclick="fullscreen(true);" class="menuicon" id="fullscreenToggle"><i class="material-icons" alt="풀슼">fullscreen</i> <span>전체화면</span><br></div>
