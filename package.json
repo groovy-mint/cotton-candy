@@ -22,22 +22,25 @@
     "dmg": {
       "title": "Cotton Candy UwU ${version}",
       "icon": "./resources/installer/Icon.icns",
-      "background":"./resources/installer/dmg_installer_background.png",
+      "background": "./resources/installer/dmg_installer_background.png",
       "iconSize": 80,
       "iconTextSize": 12,
-      "contents":[{
-        "x": 510,
-        "y": 180,
-        "type": "link",
-        "path": "/Applications"
-      },{
-        "x": 180,
-        "y": 180,
-        "type": "file"
-      }],
-      "window":{
-        "width":700,
-        "height":400
+      "contents": [
+        {
+          "x": 510,
+          "y": 180,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 180,
+          "y": 180,
+          "type": "file"
+        }
+      ],
+      "window": {
+        "width": 700,
+        "height": 400
       }
     },
     "win": {
