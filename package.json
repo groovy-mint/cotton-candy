@@ -95,8 +95,8 @@
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "electron-builder": "^22.10.4",
     "electron": "^13.1.1",
+    "electron-builder": "^22.10.4",
     "electron-rebuild": "^2.3.5"
   },
   "description": "Codename: CottonCandy",
